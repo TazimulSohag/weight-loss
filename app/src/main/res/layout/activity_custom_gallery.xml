@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-                                       xmlns:app="http://schemas.android.com/apk/res-auto"
-                                       android:id="@+id/toolbar"
-                                       android:layout_width="match_parent"
-                                       android:layout_height="?android:attr/actionBarSize"
-                                       android:background="?android:attr/colorPrimary"
-                                       android:minHeight="?android:attr/actionBarSize"
-                                       android:orientation="horizontal"
-                                       app:contentInsetStart="0dp"
-                                       app:layout_collapseMode="pin"
-                                       app:layout_scrollFlags="scroll|enterAlways"
-                                       app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
-                                       app:theme="@style/Toolbar">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:minHeight="?android:attr/actionBarSize"
+        android:orientation="horizontal"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:theme="@style/Toolbar">
 
         <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center">
+                android:layout_gravity="center_vertical"
+                android:gravity="center">
 
                 <com.common.view.CBTextView
-                        android:id="@+id/tvTitleText"
-                        style="@style/txt_fff_18"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:layout_marginLeft="45dp"
-                        android:layout_marginRight="45dp"
-                        android:ellipsize="end"
-                        android:gravity="left"
-                        android:singleLine="true"
-                        android:text="@string/app_name" />
+                    android:id="@+id/tvTitleText"
+                    style="@style/txt_fff_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/app_name" />
 
             </LinearLayout>
 
 
             <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/imgBack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|start"
-                    android:contentDescription="@null"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_arrow_back_24dp"
-                    android:visibility="visible" />
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:contentDescription="@null"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:visibility="visible" />
 
 
             <com.common.view.CBTextView
-                    android:id="@+id/tvDone"
-                    android:text="DONE"
-                    style="@style/txt_fff_18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|right"
-                    android:layout_marginRight="20dp"
-                    android:contentDescription="@null"
-                    android:visibility="visible" />
+                android:id="@+id/tvDone"
+                style="@style/txt_fff_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@null"
+                android:text="DONE"
+                android:visibility="visible" />
 
 
         </FrameLayout>
@@ -76,16 +76,14 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
-            android:padding="3dp"
-            android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
 
-            tools:listitem="@layout/item_custom_gallery">
+        tools:listitem="@layout/item_custom_gallery">
 
     </androidx.recyclerview.widget.RecyclerView>
-
-
 
 
 </LinearLayout>
