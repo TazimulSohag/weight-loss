@@ -13,8 +13,8 @@ android {
         applicationId "com.loseweight.forwomen"
         minSdkVersion 21
         targetSdkVersion 34
-        versionCode 3
-        versionName "1.9"
+        versionCode 1
+        versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
