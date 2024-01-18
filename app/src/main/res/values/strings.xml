@@ -1,10 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Lose Weight For Women</string>
+    <string name="app_name">Weight Loss</string>
     <string name="youtube_api_key">AIzaSyAoyJpy8xbelBg5uuoAfa_c2E4v262OiSE</string>
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
 
 
-    <string name="privacy_policy_link">https://sites.google.com/view/femaleweightlose-pp/home</string>
+    <string name="privacy_policy_link">https://banglabs.co/weight-loss</string>
     <string name="number_picker_formatter">%02d</string>
 
     <string name="btn_ok">Ok</string>
