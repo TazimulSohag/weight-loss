@@ -40,14 +40,14 @@
             android:id="@+id/content_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Notification Sample App"
+            android:text="@string/notification_sample_app"
             android:textAppearance="@style/TextAppearance.AppCompat.Notification.Title"/>
 
         <TextView
             android:id="@+id/content_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Expand me to see a detailed message!"
+            android:text="@string/expand_me_to_see_a_detailed_message"
             android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info"/>
     </LinearLayout>
 

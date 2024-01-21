@@ -202,4 +202,13 @@
     <string name="change_starts_ntoday">Change Starts\nToday!</string>
     <string name="or">OR</string>
     <string name="are_you_sure_nyou_want_to_logout">Are you sure?\nYou want to logout?</string>
+    <string name="watch_the_video_to_use_training_plan_once">Watch the video to use training plan once</string>
+    <string name="watch_video_to_unlock">Watch video to unlock</string>
+    <string name="unlock_once">Unlock Once</string>
+    <string name="about_app">About App</string>
+    <string name="plan_1">Plan 1</string>
+    <string name="notification_sample_app">Notification Sample App</string>
+    <string name="expand_me_to_see_a_detailed_message">Expand me to see a detailed message!</string>
+    <string name="bridge">Bridge</string>
+    <string name="today">Today</string>
 </resources>
