@@ -24,7 +24,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
-            android:background="@color/gray_light_"></View>
+            android:background="@color/gray_light_" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
@@ -49,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_plan"
-                    app:tint="@color/primary"/>
+                    app:tint="@color/primary" />
 
                 <com.common.view.CTextView
                     android:id="@+id/tvPlan"
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_report"
-                    app:tint="@color/gray_light_"/>
+                    app:tint="@color/gray_light_" />
 
                 <com.common.view.CTextView
                     android:id="@+id/tvReports"
@@ -97,7 +97,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_me"
-                    app:tint="@color/gray_light_"/>
+                    app:tint="@color/gray_light_" />
 
                 <com.common.view.CTextView
                     android:id="@+id/tvMe"

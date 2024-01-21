@@ -13,18 +13,18 @@
         android:layout_marginTop="@dimen/_22sdp"
         android:background="@drawable/rounded_shape"
         android:gravity="center"
+        android:orientation="vertical"
         android:paddingTop="@dimen/_40sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:orientation="vertical">
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.common.view.CTextView
+            style="@style/txt_theme_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            style="@style/txt_theme_16"
-            android:text="Are you sure?\nYou want to logout?" />
+            android:text="@string/are_you_sure_nyou_want_to_logout" />
 
         <com.common.view.CEditTextView
             android:id="@+id/editFacilityCode"
@@ -36,9 +36,9 @@
             android:layout_marginEnd="@dimen/_18sdp"
             android:hint="Enter Password"
             android:maxLines="1"
-            android:singleLine="true"
-            android:paddingStart="@dimen/_30sdp"
-            android:paddingEnd="@dimen/_30sdp" />
+            android:paddingStart="8dp"
+            android:paddingEnd="@dimen/_30sdp"
+            android:singleLine="true" />
 
         <com.common.view.CMTextView
             android:id="@+id/btnLogout"
@@ -50,34 +50,34 @@
             android:textAllCaps="true" />
 
         <com.common.view.CTextView
+            style="@style/txt_theme_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="OR"
-            style="@style/txt_theme_14"/>
+            android:text="@string/or" />
 
         <com.common.view.CTextView
             android:id="@+id/tvCancel"
+            style="@style/txt_theme_14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_primary_border_radius"
             android:layout_marginStart="@dimen/_25sdp"
-            android:layout_marginEnd="@dimen/_25sdp"
             android:layout_marginTop="@dimen/_15sdp"
-            android:text="@string/cancel"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/bg_primary_border_radius"
             android:gravity="center"
-            style="@style/txt_theme_14"
             android:paddingTop="@dimen/_10sdp"
             android:paddingBottom="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_25sdp"/>
+            android:text="@string/cancel" />
 
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
         android:layout_marginTop="@dimen/_5sdp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

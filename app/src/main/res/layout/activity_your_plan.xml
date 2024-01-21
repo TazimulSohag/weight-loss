@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingHorizontal="@dimen/_15sdp"
-            android:text="Change Starts\nToday!"
+            android:text="@string/change_starts_ntoday"
             android:textAllCaps="true"
             android:textSize="@dimen/_22ssp"
             android:layout_marginTop="@dimen/_5sdp"

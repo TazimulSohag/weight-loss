@@ -199,4 +199,7 @@
     <string name="pause">Pause</string>
     <string name="no_internet_available">No Internet Available</string>
     <string name="get_some_rest">Your body and muscles need to get some rest</string>
+    <string name="change_starts_ntoday">Change Starts\nToday!</string>
+    <string name="or">OR</string>
+    <string name="are_you_sure_nyou_want_to_logout">Are you sure?\nYou want to logout?</string>
 </resources>

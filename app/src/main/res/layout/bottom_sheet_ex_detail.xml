@@ -28,7 +28,7 @@
         <View
             android:id="@+id/peekView"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_50sdp"/>
+            android:layout_height="@dimen/_50sdp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,8 +40,8 @@
                 android:id="@+id/tabTransit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
-                android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 app:tabGravity="fill"
                 app:tabIndicator="@drawable/tab_bottom_circle"
                 app:tabIndicatorColor="@color/primary"
@@ -64,8 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:paddingHorizontal="@dimen/_15sdp"
                 android:overScrollMode="never"
+                android:paddingHorizontal="@dimen/_15sdp"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
                 <LinearLayout
@@ -100,9 +100,9 @@
                             android:id="@+id/imgMinus"
                             android:layout_width="@dimen/_25sdp"
                             android:layout_height="@dimen/_25sdp"
-                            android:visibility="gone"
                             android:layout_marginEnd="@dimen/_10sdp"
-                            android:src="@drawable/ic_edit_workout_minus"/>
+                            android:src="@drawable/ic_edit_workout_minus"
+                            android:visibility="gone" />
 
                         <com.common.view.CBTextView
                             android:id="@+id/tvTime"
@@ -116,9 +116,9 @@
                             android:layout_width="@dimen/_25sdp"
                             android:layout_height="@dimen/_25sdp"
                             android:layout_marginStart="@dimen/_10sdp"
-                            android:visibility="gone"
                             android:layout_marginEnd="@dimen/_5sdp"
-                            android:src="@drawable/ic_edit_workout_add"/>
+                            android:src="@drawable/ic_edit_workout_add"
+                            android:visibility="gone" />
 
                     </LinearLayout>
 
@@ -139,8 +139,8 @@
                         android:drawableStart="@drawable/ic_bulb"
                         android:drawablePadding="@dimen/_10sdp"
                         android:drawableTint="@color/primary"
-                        android:paddingVertical="@dimen/_5sdp"
                         android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_5sdp"
                         android:text="@string/common_questions" />
 
                 </LinearLayout>
@@ -209,9 +209,9 @@
                 android:id="@+id/llReplace"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
                 android:paddingHorizontal="@dimen/_15sdp"
-                android:paddingVertical="@dimen/_10sdp">
+                android:paddingVertical="@dimen/_10sdp"
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -257,9 +257,9 @@
                 android:id="@+id/llSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
                 android:paddingHorizontal="@dimen/_15sdp"
-                android:paddingVertical="@dimen/_10sdp">
+                android:paddingVertical="@dimen/_10sdp"
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -306,13 +306,13 @@
                 style="@style/txt_fff_18"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btn_height"
+                android:layout_margin="@dimen/_15sdp"
                 android:background="@drawable/btn_bg_round_grediant"
                 android:text="@string/btn_continue"
-                android:layout_margin="@dimen/_15sdp"
+                android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                android:visibility="gone"/>
+                app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
 
