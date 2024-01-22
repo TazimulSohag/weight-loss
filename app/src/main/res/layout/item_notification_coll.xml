@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/primary"
+
     android:padding="@dimen/_7ssp">
 
     <RelativeLayout
@@ -18,8 +19,7 @@
             android:paddingLeft="4dp"
             android:paddingRight="6dp"
             android:paddingBottom="1dp"
-            android:src="@drawable/wt_notification_drink"
-            />
+            android:src="@drawable/wt_notification_drink" />
 
 
     </RelativeLayout>
@@ -30,8 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="false"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/icon_container"
         android:layout_toLeftOf="@id/tvDrink"
+        android:layout_toRightOf="@+id/icon_container"
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:paddingLeft="6dp">
@@ -41,14 +41,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/notification_sample_app"
-            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Title"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Title" />
 
-        <TextView
+       <!-- <TextView
             android:id="@+id/content_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/expand_me_to_see_a_detailed_message"
-            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info" />-->
     </LinearLayout>
 
     <TextView
@@ -64,14 +64,14 @@
 
     <TextView
         android:id="@+id/tvDrink"
+        style="@style/txt_theme_14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/btn_bg_round"
         android:layout_centerVertical="true"
-        android:text="Drink"
-        style="@style/txt_theme_14"
+        android:background="@drawable/btn_bg_round"
+        android:paddingHorizontal="@dimen/_18sdp"
         android:paddingVertical="@dimen/_7sdp"
-        android:paddingHorizontal="@dimen/_18sdp"/>
+        android:text="Drink" />
 
 </RelativeLayout>
